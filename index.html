@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<link rel="stylesheet" type="text/css" href="iphone/style.css" />
+	<meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport" /><!-- Запрет на маштабирование -->
+	<meta name = "viewport" content = "width=device-width"> <!-- Прокрутка только вверх и вниз -->
+	<meta content="yes" name="apple-mobile-web-app-capable" /> <!-- как приложение воспринимает браузер -->
+	<link rel="apple-touch-startup-image" href="/images/startup.png"> <!-- путь к картинке которая отображается при загрузке приложения 320х460 -->
+	<link rel="apple-touch-icon" href="/custom_icon.png"/> <!-- иконка 57х57 в пнг -->
+	<script type="text/javascript" src="iphone/js/jquery.js"></script>
+	<script type="text/javascript" src="iphone/js/mobile.js"></script>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" /> <!-- статусная строка в черный -->
+	<meta name="apple-mobile-web-app-capable" content="yes" /> <!-- убираем панели -->
+        <title>Profishop</title>
+    </head>
+    <body>
+            <header>
+			<div class="top">
+				<span class="logo">
+					<a id="navbar" href="#menu">
+						<span class="icon"></span>
+						<span class="icon"></span>
+						<span class="icon"></span>
+					</a>
+					<a id="profile" href="#cabinet">
+						<img src="iphone/img/profile.png" />
+					</a>
+				</span>
+			</div>
+            <div class="bottom">
+				<ul>
+						<li class="active"><a href="#">Товары</a></li>
+						<li><a href="#">Ваш заказ</a></li>
+						
+				</ul>
+						<div id="ct_filter">
+							<!--img class="combine-open" src="/img/combine-open.png" alt="" /-->
+							<div class="text-holder">
+								<form method="post" action="/search">
+								<input name="search-text" class="search-text" type="text" aria-controls="ct" placeholder="Поиск...">
+								<input name="search-type" class="search-type" type="hidden" value="all">
+								</form>
+							</div>	
+							<div class="select-tab"></div>
+							<div class="select-list">
+								<a class="select-option selected" value="all" href="#">Все</a>
+								<a class="select-option" value="articule" href="#">Артикул</a>
+								<a class="select-option" value="name" href="#">Название</a>
+								<a class="select-option" value="price" href="#">Цена</a>
+							</div>
+						</div>	
+			</div>
+			</header>
+            <article class="noise">
+				<div class="item">
+					<span class="articule">11111111-1</span>
+					<span class="price">11111111-1</span>
+					<span class="name">11111111-1</span>
+					<span class="select">11111111-1</span>
+					<span class="ost">11111111-1</span>
+					<span class="input">11111111-1</span>
+			   </div>
+            </article>
+
+    </body>
+</html>

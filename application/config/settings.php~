@@ -1,0 +1,13 @@
+<?php if(!defined('BASEPATH')) exit('No direct script access allowed');
+		$db_hostname='localhost'; //Адрес сервера БД
+		$db_username='pr_onsilk'; //Логин к БД
+		$db_password='AgNVtFPo';  //Пароль к БД
+		$db_database='pr_onsilk'; //Название БД
+		$api_name = 'profishop_onsilk'; //Логин для входа в API
+		$api_pass = 'AgNVtFPo'; //Пароль для входа в API
+		$allow_upload = ‘1’; // Возможность загрузки изображений да-1, нет-0
+		$smtp_host = 'smtp.profishop.us'; //Почтовый сервер
+		$smtp_port = '25'; //Порт сервера
+		$smtp_user = 'onsilk@profishop.us'; //Логин от почты
+		$smtp_pass = 'AgNVtFPo'; //Пароль от почты
+		$num_users = ‘150’; //Активные сессии
